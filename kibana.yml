@@ -1,0 +1,7 @@
+server.host: 0.0.0.0
+elasticsearch.hosts: "https://d991192a4668436687468d45f9abb472.us-east-1.aws.staging.foundit.no:9243"
+elasticsearch.preserveHost: true
+elasticsearch.username: elastic
+kibana.index: ".kibana"
+xpack.actions.enabled: true
+xpack.alerting.enabled: true

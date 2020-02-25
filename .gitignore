@@ -1,0 +1,6 @@
+node_modules
+botkit_db
+npm-debug.log
+typings
+coverage
+/lib

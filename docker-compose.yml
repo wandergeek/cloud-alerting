@@ -1,0 +1,9 @@
+version: '3'
+services:
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.6.0-SNAPSHOT
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+      - ./alert_type_examples:/usr/share/kibana/plugins/alerting
+    ports:
+      - "5601:5601"
