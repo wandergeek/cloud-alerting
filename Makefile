@@ -31,6 +31,7 @@ help:
 	@echo "Kibana plugins for Alerting as a Service." 
 	@echo ""
 	@echo "build - build the cloud-alerting container"
+	@echo "push - push the cloud-alerting container"
 
 
 .PHONY: build
